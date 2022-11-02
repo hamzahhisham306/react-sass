@@ -1,0 +1,26 @@
+.section-body {
+  background-color: #fcefdd;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.section-body h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #615d5d;
+}
+
+.section-body .creamsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-body .creamsection .box {
+  text-align: center;
+}
+
+.section-body .creamsection .box img {
+  width: 150px;
+  height: 150px;
+}

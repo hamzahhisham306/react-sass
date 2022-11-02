@@ -1,0 +1,64 @@
+@import './_colors.scss';
+@import './_mixins.scss';
+
+.header{
+    position:sticky;
+    top:0;
+    nav{
+       @include flex-center;
+        justify-content:space-between;
+    
+        height:4rem;
+        background-color:$main-color;
+        .ul-items{
+            list-style:none;
+            .li-items{
+                a{
+                    text-decoration:none;
+                    color:$secondary-color;
+                    margin: 0 1rem;
+                    font-size:12px;
+                    font-weight: bold;
+
+                }
+                .orange{
+                    color:$orange-color;
+                }
+            }
+        }
+        .right{
+            @include flex-center;
+            .search{
+                @include flex-center;
+                color:$gray-color;
+                .search-icon{
+                    color:$gray-color;
+                    font-size:20px;
+                }
+            }
+            .sch-btn{
+                background:none;
+                border:none;
+                cursor:pointer;
+            }
+        }
+        .right-buttons{
+            @include flex-center;
+            margin-right:1rem;
+
+            button{
+                margin:0 1rem;
+                background:none;
+                cursor:pointer;
+                 border:none;
+                a{
+                    text-decoration:none;
+                    color:$gray-color;
+                }
+            }
+            .basket{
+             color:$basket-color;
+            }
+        }
+    }
+}
