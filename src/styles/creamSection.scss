@@ -1,0 +1,27 @@
+@import './_mixins.scss';
+@import './_colors.scss';
+
+
+.section-body{
+    background-color:$cream-color;
+    padding-bottom:100px;
+    padding-top:100px;
+
+    h1{
+        text-align:center;
+        font-size:50px;
+        color:$gray-color;
+
+    }
+.creamsection{
+    @include flex-center;
+    justify-content:space-evenly;
+    .box{
+        text-align:center;
+        img{
+            width:150px;
+            height:150px;
+        }
+    }
+}
+}
